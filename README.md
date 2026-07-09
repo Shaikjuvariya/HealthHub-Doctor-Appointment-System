@@ -79,15 +79,7 @@ npm start
 
 ---
 
-## 📸 Screenshots
 
-- Login Page
-- Patient Dashboard
-- Admin Dashboard
-- Book Appointment
-- View Appointments
-
-(Add screenshots later)
 
 ---
 
