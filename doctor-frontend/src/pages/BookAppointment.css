@@ -1,0 +1,89 @@
+.booking-container {
+  display: flex;
+  height: 100vh;
+  background: #eef4f8;
+}
+
+/* LEFT PANEL */
+.left-panel {
+  width: 50%;
+  background: #1677a8;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.left-panel h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.left-panel p {
+  font-size: 18px;
+  max-width: 350px;
+}
+
+/* ICON */
+.doctor-icon {
+  width: 140px;
+  margin-top: 30px;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-card {
+  background: white;
+  padding: 30px;
+  width: 360px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1677a8;
+}
+
+.form-card label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-card input,
+.form-card select,
+.form-card textarea {
+  width: 100%;
+  margin: 6px 0 12px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-card textarea {
+  height: 70px;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  background: #1677a8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-card button:hover {
+  background: #125f86;
+}
